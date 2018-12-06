@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(196,137,187);
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 10%;
+}
+h1{
+    font-size: 150%;
+}
+h2 {
+    font-size:1.5em;
+    color: white;
+}
+#mission{
+    line-height: 2.1em;
+    border-style: solid;
+    border-width: thin;
+    border-color: pink;
+    border-radius: 20px;
+    border-color:brown;
+    padding:1%;
+    margin-left: 15%;
+    margin-right: 25%;
+}
+.produs{
+    border-width: medium;
+    border-style: solid;
+}
+.coffee {
+  border-color: purple;
+}
+#ceai {
+    border-style: dotted;
+    border-color: pink;
+}
+.guarantee {
+    text-align: center;
+    border-color: white;
+    border-width: 4px;
+    border-style: dotted;
+    padding: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 10px auto;
+    background-color: #a7cece;
+    line-height: 1.7em;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 80px;
+    max-width: 400px;
+    box-sizing: border-box;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+
+}
+a:link {
+
+}
+a:visited {
+    color:green;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.song {
+    font-style: italic;
+}
+.artist {
+    font-weight: bold;
+}
+#ticket {
+      position: fixed;
+      top: 150px;
+      right: 20px;
+      width: 290px;
+}

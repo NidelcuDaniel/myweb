@@ -1,0 +1,29 @@
+html, body {
+  background-color: #ffeead;
+  font-size: 1.1em;
+  font-family: sans-serif;
+}
+
+div {
+  text-align: center;
+  border-width: medium;
+  border-color: orange;
+  border-style: solid;
+  width: 300px;
+}
+div:nth-child(1) {
+  background-color: tan;
+}
+div:nth-child(2) {
+  background-color: lightblue;
+}
+div:nth-child(3) {
+  background-color: green;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
